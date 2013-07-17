@@ -11,4 +11,4 @@ class MyHandler(RequestHandler):
 
 class MainPage(MyHandler):
     def get(self):
-        self.write_out('base', {})
+        self.write_out('main/main', {})
